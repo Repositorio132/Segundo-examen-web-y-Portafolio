@@ -1,0 +1,89 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #ff6600; /* Color naranja */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+/* Estilo de la lista de tareas */
+.tasks-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.available {
+    background-color: #e0ffe0; /* Verde claro */
+}
+
+.unavailable {
+    background-color: #ffe0e0; /* Rojo claro */
+    color: #999;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8; /* Efecto hover */
+}
+
+button:disabled {
+    background-color: #ccc; /* Color para botones deshabilitados */
+    cursor: not-allowed;
+}
+
+/* Estilo de contenedor */
+div {
+    margin-bottom: 20px;
+}

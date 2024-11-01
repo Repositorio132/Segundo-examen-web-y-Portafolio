@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2, h3, h4 {
+    color: #007BFF; /* Color azul para los encabezados */
+}
+
+/* Secciones */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], 
+textarea, 
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Botones */
+button {
+    padding: 10px;
+    background-color: #007BFF; /* Color azul */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Listas de tareas */
+.tasks-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    background-color: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.task h4 {
+    margin: 0;
+}
+
+.option-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.option-radio {
+    margin-right: 5px;
+}
+
+/* Contenedor de cuestionarios */
+.quiz-item {
+    background-color: #e7f3ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.question-container {
+    margin: 15px 0;
+}
+
+.options-container {
+    margin-top: 10px;
+}
+
+/* Alertas */
+.alert {
+    color: red;
+    font-weight: bold;
+}
